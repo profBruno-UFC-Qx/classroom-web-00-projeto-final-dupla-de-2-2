@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Manicure Store - Carrinho</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="cabecalho">
+    <div class="logo">
+      Manicure <span>STORE</span>
+    </div>
+
+    <nav class="menu" aria-label="Menu principal">
+      <a href="index.html">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="cursos.html">Cursos</a>
+      <a class="active" href="carrinho.html" aria-current="page">Carrinho</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main class="conteudo-principal">
+    <section class="title" aria-labelledby="titulo-carrinho">
+      <h1 id="titulo-carrinho">Meu Carrinho</h1>
+      <p>Confira os produtos e cursos adicionados antes de finalizar sua compra.</p>
+    </section>
+
+    <section class="cart-box" aria-label="Itens do carrinho">
+      <article class="cart-items">
+        <h2>Itens adicionados</h2>
+
+        <table>
+          <caption>Lista de produtos e cursos adicionados ao carrinho</caption>
+
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Preço</th>
+              <th scope="col">Quantidade</th>
+              <th scope="col">Subtotal</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Esmalte em Gel</td>
+              <td>R$ 29,90</td>
+              <td>1</td>
+              <td>R$ 29,90</td>
+            </tr>
+
+            <tr>
+              <td>Alicate Profissional</td>
+              <td>R$ 49,90</td>
+              <td>1</td>
+              <td>R$ 49,90</td>
+            </tr>
+
+            <tr>
+              <td>Curso Alongamento em Gel</td>
+              <td>R$ 297,00</td>
+              <td>1</td>
+              <td>R$ 297,00</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <aside class="summary" aria-labelledby="resumo-pedido">
+        <h2 id="resumo-pedido">Resumo do pedido</h2>
+
+        <p>
+          <span>Subtotal</span>
+          <strong>R$ 376,80</strong>
+        </p>
+
+        <p>
+          <span>Frete</span>
+          <strong>R$ 19,90</strong>
+        </p>
+
+        <p>
+          <span>Total</span>
+          <strong>R$ 396,70</strong>
+        </p>
+
+        <a href="#" class="btn">Finalizar compra</a>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>&copy; 2026 Manicure Store.</p>
+  </footer>
+</body>
+</html>

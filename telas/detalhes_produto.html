@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Manicure Store - Detalhe do Produto</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="cabecalho">
+    <div class="logo">
+      Manicure <span>STORE</span>
+    </div>
+
+    <nav class="menu" aria-label="Menu principal">
+      <a href="index.html">Início</a>
+      <a class="active" href="produtos.html" aria-current="page">Produtos</a>
+      <a href="cursos.html">Cursos</a>
+      <a href="carrinho.html">Carrinho</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main class="conteudo-principal">
+    <article class="detail-layout" aria-labelledby="produto-titulo">
+      <section class="detail-image" aria-label="Imagem ilustrativa do produto">
+        <span aria-hidden="true"></span>
+      </section>
+
+      <section class="detail-info">
+        <h1 id="produto-titulo">Esmalte em Gel Rosa Chiclete</h1>
+
+        <p class="price" aria-label="Preço do produto">
+          R$ 29,90
+        </p>
+
+        <p>
+          Esmalte em gel de alta pigmentação, brilho intenso e acabamento profissional.
+        </p>
+
+        <section aria-labelledby="caracteristicas-produto">
+          <h2 id="caracteristicas-produto">Características do produto</h2>
+
+          <ul>
+            <li>Alta cobertura</li>
+            <li>Longa duração</li>
+            <li>Secagem em cabine LED/UV</li>
+            <li>Resultado profissional</li>
+          </ul>
+        </section>
+
+        <nav class="acoes-produto" aria-label="Ações do produto">
+          <a href="carrinho.html" class="btn">Adicionar ao carrinho</a>
+          <a href="produtos.html" class="btn btn-outline">Voltar</a>
+        </nav>
+      </section>
+    </article>
+  </main>
+
+  <footer class="rodape">
+    <p>&copy; 2026 Manicure Store.</p>
+  </footer>
+</body>
+</html>
